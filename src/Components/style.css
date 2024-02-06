@@ -1,0 +1,36 @@
+/* style.css */
+
+.parallax-effect-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .parallax-effect-flare-scale {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    margin: 20px; /* Adjusted margin for better spacing */
+    border: 2px solid brown; /* Set border color to brown */
+    overflow: hidden;
+  }
+  
+  /* Add any additional styles for your icons or text here */
+  
+  .service-box {
+    box-shadow: 0px 0px 10px pink;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .service-box:hover {
+    box-shadow: 0px 0px 20px pink;
+  }
+
+  .shadow-pink {
+    box-shadow: 0px 0px 10px pink; /* Adjust the shadow size and color as needed */
+}
+
+  
