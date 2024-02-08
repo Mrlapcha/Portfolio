@@ -12,7 +12,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <nav className='fixed w-full z-20 top-0 bg-orange-100 bg-opacity-80'>
+            <nav className='fixed w-full z-20 top-0 bg-green-100 bg-opacity-80'>
                 <div className="max-w-screen-x1 flex flex-wrap items-center justify-between mx-auto p-2">
                     <img src={logo} className="h-8 ml-4" alt="Khemraj Lapcha Logo" />
 

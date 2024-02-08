@@ -51,7 +51,7 @@ const About = () => {
           src={Profile} 
           alt="Profile" 
           className="element object-contain p-4" 
-          style={{ width: '500px', height: '600px', boxShadow: '0px 0px 10px pink' }} 
+          style={{ width: '400px', height: '450px', boxShadow: '0px 0px 5px black' }} 
         />
       </div>
     </div>
