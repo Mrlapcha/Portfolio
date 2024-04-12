@@ -1,8 +1,8 @@
 import React from 'react';
 import Profile from "../assets/profile.jpg";
 import Resume from "../assets/Resume.pdf";
-import Style, { Styles } from "../utils/Style";
-import { TiArrowDownOutline } from "react-icons/ti";
+import { Styles } from "../utils/Style";
+import { GoArrowDown } from "react-icons/go";
 import { motion } from 'framer-motion';
 
 const About = () => {
@@ -17,19 +17,20 @@ const About = () => {
         >
           Hi, I'm{' '}
           <motion.span
-            className='text-blue-600'
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5, delay: 0.3 }}
-          >
-            KHEMRAJ
-          </motion.span>
+    className='text-blue-600'
+    initial={{ opacity: 0, x: -20 }}
+    animate={{ opacity: 1, x: 0 }}
+    transition={{ duration: 0.5, delay: 1.0 }} // Adjust the delay here
+>
+    KHEMRAJ
+</motion.span>
+
           <br />
           <motion.span
             className={Styles.heroSubText}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.6 }}
+            transition={{ duration: 0.5, delay: 1.5 }}
           >
             I am Frontend Developer & <br /> Web designer
           </motion.span>
@@ -39,8 +40,8 @@ const About = () => {
         <br />
         <div className='w-[14rem]'>
           <a href={Resume} download="Resume" target='_blank' rel="noreferrer">
-            <div className ='p-4 mt-2 w-[13rem] rounded-full text-brown-300 bg-blue-300 flex justify-center border-2 border-blue-500 hover:border-violet-500 shadow-lg hover:shadow-orange transition duration-300'>
-              <TiArrowDownOutline className="text-lg mr-3 text-orange"></TiArrowDownOutline> Resume
+            <div className ='p-4 mt-2 w-[13rem] rounded-xl bg-blue-300 flex justify-center border-2 border-blue-700  hover:bg-blue-700 transition duration-300'>
+               <span class="text-black-200">Resume</span> <GoArrowDown  className="text-lg mr-3 text-orange"/>
             </div>
           </a>
         </div>

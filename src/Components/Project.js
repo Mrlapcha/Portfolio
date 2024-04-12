@@ -8,7 +8,7 @@ import {SiNetlify} from 'react-icons/si'
 const Project = () => {
   return (
     <div>
-      <div className="flex-row items-center pl-s justify-center pt-3" id="Projects">
+      <div className="flex-row items-center pl-s justify-center  pt-3" id="Projects">
         <span className={Styles.sectionHeadText}>
           Projects
         </span>
