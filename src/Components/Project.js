@@ -8,12 +8,14 @@ import {SiNetlify} from 'react-icons/si'
 const Project = () => {
   return (
     <div>
-      <div className="flex-row items-center pl-s justify-center  pt-3" id="Projects">
-        <span className={Styles.sectionHeadText}>
+      <div className="flex-col items-center pl-s justify-center  pt-3" id="Projects">
+       <div className="text-center">
+         <span className={Styles.sectionHeadText}>
           Projects
         </span>
-        <hr className='w-[35%]'></hr>
-        <div className={Styles.sectionText}>
+        </div>
+        <hr className=' items-center mr-6 ml-6 text-slate-600' ></hr>
+        <div className="text-center font-serif text-slate-600 p-6 mr-20 ml-20 ">
           Explore a collection of my diverse web development projects that showcase my skills and creativity. From crafting seamless e-commerce platforms to designing intuitive task management apps, each project reflects my commitment to delivering innovative solutions. Currently, I'm working on exciting endeavors, including a machine learning dashboard and a community forum platform, pushing the boundaries of web development. Stay tuned for more updates as I continue to bring ideas to life in the digital realm.
         </div>
       </div>

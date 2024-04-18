@@ -24,7 +24,7 @@ function App() {
          <About />
        </div>
     </div>
-    <div className="flex flex-col relative   ">
+    <div className="flex flex-col relative dark:bg-slate-800 ">
       <Overview />
       <Github />
       <Project />

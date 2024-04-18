@@ -6,7 +6,7 @@ import {GrMail} from 'react-icons/gr'
 // Footer component
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white p-8">
+    <footer className="bg-gray-900 text-white p-8">
       <div className="container mx-auto">
         {/* Footer content */}
         <div className="flex flex-col md:flex-row items-center justify-between">

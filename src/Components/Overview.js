@@ -8,11 +8,13 @@ const Overview = () => {
   return (
     <div>
       <div className="flex-row items-center pl-s justify-center pt-3" id="Overview">
+       <div className="text-center">
         <span className={Styles.sectionHeadText}>
           Introduction
         </span>
-        <hr className='w-[35%]'></hr>
-        <div className={Styles.sectionText}>
+        </div>
+        <hr className='text-center mr-6 ml-6 text-slate-600'></hr>
+        <div className="text-center font-serif text-slate-600 p-6 mr-20 ml-20">
           Hello! I'm a skilled web developer specializing in JavaScript, HTML, CSS, and React. With a focus on creating dynamic and visually appealing web applications, I bring a wealth of experience to the table. From crafting interactive interfaces to optimizing performance, I'm dedicated to delivering high-quality code. Let's turn your ideas into captivating online experiences!
         </div>
       </div>
